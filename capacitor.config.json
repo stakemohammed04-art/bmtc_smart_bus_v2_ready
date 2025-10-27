@@ -1,0 +1,6 @@
+{
+  "appId": "com.bmtc.smartbus",
+  "appName": "BMTC SmartBus",
+  "webDir": "frontend/build",
+  "bundledWebRuntime": false
+}

@@ -1,0 +1,11 @@
+        default_platform(:android)
+
+platform :android do
+  desc "Build Android for Appflow"
+  lane :build do
+    sh "npm --prefix frontend ci"
+    sh "npm --prefix frontend run build"
+    sh "npx cap sync android"
+    sh "npx cap copy android"
+  end
+end
