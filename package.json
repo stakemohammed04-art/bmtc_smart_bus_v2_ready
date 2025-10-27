@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/stakemohammed04-art/bmtc_smart_bus_v2_ready#readme",
   "dependencies": {
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
     "@ionic/angular": "^8.7.7"
   }
 }
