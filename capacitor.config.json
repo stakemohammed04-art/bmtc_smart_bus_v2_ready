@@ -1,6 +1,15 @@
 {
   "appId": "com.bmtc.smartbus",
-  "appName": "BMTC SmartBus",
+  "appName": "BMTC Smart Bus v2",
   "webDir": "frontend/dist",
-  "bundledWebRuntime": false
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "server": {
+    "url": "http://localhost:5173",
+    "cleartext": true
+  }
 }
