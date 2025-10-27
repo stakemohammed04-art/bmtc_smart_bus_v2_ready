@@ -1,0 +1,23 @@
+{
+  "name": "bmtc_smart_bus_v2_ready",
+  "version": "1.0.0",
+  "description": "This package contains a demo fullstack app (backend Node.js + SQLite, frontend React/Vite).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stakemohammed04-art/bmtc_smart_bus_v2_ready.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stakemohammed04-art/bmtc_smart_bus_v2_ready/issues"
+  },
+  "homepage": "https://github.com/stakemohammed04-art/bmtc_smart_bus_v2_ready#readme",
+  "dependencies": {
+    "@ionic/angular": "^8.7.7"
+  }
+}
